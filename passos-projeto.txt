@@ -1,2 +1,0 @@
-1 - Normalize.css no cdn como tag
-2 - Otimizar imagens
