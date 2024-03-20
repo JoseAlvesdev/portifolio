@@ -24,12 +24,12 @@
       <header class="c-header c-header--after">
 
           <img 
-            class="c-header__photo" 
+            class="c-header__photo js-profile-photo" 
             src="./assets/images/foto-perfil.svg" 
-            alt="Foto do José Alves"
+            alt="Foto de perfil"
           >
 
-          <h1 class="c-header__title">Olá, <br>eu sou José Alves</h1>
+          <h1 class="c-header__title">Olá, <br>eu sou <spam class="js-profile-name">Loading...</spam></h1>
 
           <div class="c-information">
 
@@ -40,7 +40,7 @@
                   c-information__text--before
                 "
               >
-                Desenvolvedor Full Stack Júnior
+                <spam class="js-profile-job">Loading...</spam>
               </p>
               <p 
                 class="
@@ -49,7 +49,7 @@
                   u-location-icon
                 "
               >
-                Goiás - BR
+                <spam class="js-profile-location">Loading...</spam>
               </p>
               <p 
                 class="
@@ -58,7 +58,7 @@
                   u-phone-icon
                 "
               >
-                <a href="tel: (62) 9 9160-5900">(62) 9 9160-5900</a>
+                <a href="tel: (62) 9 9160-5900" class="js-profile-phone">(62) 9 9160-5900</a>
               </p>
               <p 
                 class="
@@ -67,7 +67,7 @@
                   u-email-icon
                 "
               >
-                <a href="mailto:josehenriques10@outlook.com">josehenriques10@outlook.com</a>
+                <a href="mailto:josehenriques10@outlook.com" class="js-profile-email">Loading...@outlook.com</a>
               </p>
             </span>
 
@@ -395,5 +395,7 @@
     </main>
     
     <script src="./assets/js/script.js" defer></script>
+    <script src="./assets/js/api.js" defer></script>
+    <script src="./assets/js/main.js" defer></script>
   </body>
 </html>
