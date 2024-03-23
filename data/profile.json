@@ -48,7 +48,7 @@
     {
       "institution": "Universidade Estadual de Goiás",
       "course": "Curso Superior de Tecnologia(CST) Gestão Pública",
-      "period": "jan 2016 - jun de 2017"
+      "period": "jan 2019 - ago 2021"
     },
     {
       "institution": "Colégio Estadual Cônego José Trindade da Fonseca e Silva",
@@ -71,6 +71,11 @@
       "name": "Página com imagem e descrição dos personagens de X-MEN",
       "url": "https://github.com/josehenriques10/x-men-szpc",
       "github": true
+    },
+    {
+      "name": "Calculadora Funcional que me auxilia no meu emprego atual",
+      "url": "https://github.com/josehenriques10/calcular-frequencia",
+      "github": false
     }
   ],
   "professionalExperience": [

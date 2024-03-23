@@ -47,8 +47,20 @@
         const education = document.querySelector('.js-education');
 
         education.innerHTML = profileData.education.map(intitution => {
-            console.log(intituition);
-        });
+            return `
+            <li class="c-institution">
+                <span class="c-institution__title">
+                    ${intitution.institution}
+                </span>
+                <span class="c-institution__course">
+                    ${intitution.course}
+                </span>
+                <span class="c-institution__period">
+                    ${intitution.period}
+                </span>
+            </li>
+            `;
+        }).join('');
     }
 
     function updatePortifolio(profileData) {

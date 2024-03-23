@@ -419,6 +419,8 @@ a:hover {
 }
 
 .c-institution__course{
+  margin-bottom: .5rem;
+  font-style: italic;
 }
 
 .c-institution__period {
