@@ -63,19 +63,39 @@
   ],
   "portfolio": [
     {
-      "name": "Curso Ministrado na EBAC para a criação de um clone do TikTok",
+      "name": "Criação de um clone do TikTok Curso ministrado na EBAC",
       "url": "https://github.com/josehenriques10/Tik-Tok-Clone-Project",
       "github": true
     },
     {
-      "name": "Página com imagem e descrição dos personagens de X-MEN",
+      "name": "Página com imagem e descrição dos personagens de X-MEN Curso ministrado na DEV EM DOBRO",
       "url": "https://github.com/josehenriques10/x-men-szpc",
       "github": true
     },
     {
-      "name": "Calculadora Funcional que me auxilia no meu emprego atual",
+      "name": "Calculadora Funcional de (autoria própia) que me auxilia no meu emprego atual",
       "url": "https://github.com/josehenriques10/calcular-frequencia",
-      "github": false
+      "github": true
+    },
+    {
+      "name": "Site contando a história do mascote do Android Curso Ministrado no Curso em Vídeo",
+      "url": "https://github.com/josehenriques10/android-site",
+      "github": true
+    },
+    {
+      "name": "Cordel Moderno Curso Ministrado no Curso em Vídeo",
+      "url": "https://github.com/josehenriques10/Cordel-Moderno-Project",
+      "github": true
+    },
+    {
+      "name": "Projeto proposto da DIO site de uma Clínica (autoria própia)",
+      "url": "https://github.com/josehenriques10/clinica",
+      "github": true
+    },
+    {
+      "name": "Jogo da Velha em Python (autoria própia)",
+      "url": "https://github.com/josehenriques10/jogo-da-velha-em-python",
+      "github": true
     }
   ],
   "professionalExperience": [

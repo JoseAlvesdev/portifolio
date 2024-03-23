@@ -67,6 +67,7 @@
         const portifolio = document.querySelector('.js-profile-portifolio');
 
         portifolio.innerHTML = profileData.portfolio.map(project => {
+            console.log(profileData.portfolio);
             return `
                 <li class="c-project">
                     <span class="c-project__title ${project.github ? 'c-project__title--before': ''}">
