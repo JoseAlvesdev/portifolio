@@ -43,6 +43,14 @@
         }).join('');
     }
 
+    function updateEducation(profileData) {
+        const education = document.querySelector('.js-education');
+
+        education.innerHTML = profileData.education.map(intitution => {
+            console.log(intituition);
+        });
+    }
+
     function updatePortifolio(profileData) {
         const portifolio = document.querySelector('.js-profile-portifolio');
 
@@ -66,10 +74,9 @@
     }
 
     function updateProfessionalExperience(profileData) {
-        const professionalExperience = document.querySelector('js-professional-experience');
+        const professionalExperience = document.querySelector('.js-professional-experience');
 
         professionalExperience.innerHTML = profileData.professionalExperience.map(experience => {
-            console.log(experience);
             return `
                 <li class="c-experience">
                     <span class="c-experience__title">
@@ -94,6 +101,7 @@
         updateProfileInfo(profileData);
         updateSoftSkills(profileData);
         upadateLanguages(profileData);
+        updateEducation(profileData);
         updatePortifolio(profileData);
         updateProfessionalExperience(profileData);
     })();

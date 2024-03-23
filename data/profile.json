@@ -44,6 +44,23 @@
     "Português BR",
     "Inglês (iniciante)"
   ],
+  "education": [
+    {
+      "institution": "Universidade Estadual de Goiás",
+      "course": "Curso Superior de Tecnologia(CST) Gestão Pública",
+      "period": "jan 2016 - jun de 2017"
+    },
+    {
+      "institution": "Colégio Estadual Cônego José Trindade da Fonseca e Silva",
+      "course": "Ensino Médio",
+      "period": "ago 2017 - dez de 2018"
+    },
+    {
+      "institution": "Colégio Estadual Gricon e Silva",
+      "course": "Ensino Médio",
+      "period": "jan 2016 - jun de 2017"
+    }
+  ],
   "portfolio": [
     {
       "name": "Curso Ministrado na EBAC para a criação de um clone do TikTok",
@@ -65,12 +82,12 @@
     {
       "name": "Assessor",
       "period": "2021 - até o momento",
-      "description": "Aprendiz na parte administrativa de Orgão Municipal, lidando com atendimento ao público, sistemas de gestão, gestão e emissão documentos e etc."
+      "description": "Executando serviços administrativos no Orgão Municipal, lidando com atendimento ao público, sistemas de gestão, gestão e emissão documentos e etc."
     },
     {
       "name": "Estagiário",
       "period": "2019 -2020",
-      "description": "Aprendiz na parte administrativa de Orgão Municipal, lidando com atendimento ao público, sistemas de gestão, gestão e emissão documentos e etc."
+      "description": "Estágio na parte administrativa de Orgão Municipal, lidando com atendimento ao público, sistemas de gestão, gestão e emissão documentos e etc."
     },
     {
       "name": "Jovem Aprendiz",
