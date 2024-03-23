@@ -33,9 +33,46 @@
         ).join('');
     }
 
+    function upadateLanguages(profileData) {
+        const languages = document.querySelector('.js-profile-languages');
+
+        languages.innerHTML = profileData.languages.map(language => {
+            return `<li class="c-languages_item c-languages_item--before">
+                ${language}
+            </li>`;
+        }).join('');
+    }
+
+    function updatePortifolio(profileData) {
+        const portifolio = document.querySelector('.js-profile-portifolio');
+
+        portifolio.innerHTML = profileData.portfolio.map(project => {
+            const projectTitle = document.querySelectorAll('.c-project__title');
+
+            return `
+                <li class="c-project">
+                    <span class="c-project__title ${project.github ? 'c-project__title--before': ''}">
+                        ${project.name}
+                    </span>
+                    <a 
+                        class="c-project__link c-project__link--hover" 
+                        href="${project.url}"
+                        target="_blank"
+                        rel="external"
+                    >
+                        ${project.url}
+                    </a>
+                </li>
+            `
+        }).join('');
+    }
+
     (async function() {
         const profileData = await fetchProfileData();
+
         updateProfileInfo(profileData);
         updateSoftSkills(profileData);
+        upadateLanguages(profileData);
+        updatePortifolio(profileData);
     })();
 })();
