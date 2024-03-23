@@ -47,8 +47,6 @@
         const portifolio = document.querySelector('.js-profile-portifolio');
 
         portifolio.innerHTML = profileData.portfolio.map(project => {
-            const projectTitle = document.querySelectorAll('.c-project__title');
-
             return `
                 <li class="c-project">
                     <span class="c-project__title ${project.github ? 'c-project__title--before': ''}">
@@ -63,7 +61,30 @@
                         ${project.url}
                     </a>
                 </li>
-            `
+            `;
+        }).join('');
+    }
+
+    function updateProfessionalExperience(profileData) {
+        const professionalExperience = document.querySelector('js-professional-experience');
+
+        professionalExperience.innerHTML = profileData.professionalExperience.map(experience => {
+            console.log(experience);
+            return `
+                <li class="c-experience">
+                    <span class="c-experience__title">
+                        ${experience.name}
+                    </span>
+                    <span 
+                        class="c-experience__period c-experience__period--before"
+                    >
+                        ${experience.period}
+                    </span>
+                    <p class="c-experience__descripition">
+                        ${experience.description}
+                    </p>
+                </li>
+            `;
         }).join('');
     }
 
@@ -74,5 +95,6 @@
         updateSoftSkills(profileData);
         upadateLanguages(profileData);
         updatePortifolio(profileData);
+        updateProfessionalExperience(profileData);
     })();
 })();
