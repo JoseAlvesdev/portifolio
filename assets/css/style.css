@@ -183,6 +183,7 @@ a:hover {
   align-items: center;
   flex-wrap: wrap;
   list-style: none;
+  padding: 0 1rem 0;
 }
 
 .c-languages_item {
@@ -204,11 +205,6 @@ a:hover {
   margin-right: .5rem;
 }
 
-.c-acordeon--open /* Quando com a classe open padding de languages muda */
-.c-languages {
-  padding: 0 1rem 0;
-}
-
 /* ==================== Portifolio ==================== */
 
 .c-portifolio {
@@ -216,10 +212,6 @@ a:hover {
   flex-direction: column;
   justify-content: flex-start;
   width: 100%;
-}
-
-.c-acordeon--open 
-.c-portifolio {
   padding: 0 1rem 1rem;
 }
 
@@ -254,6 +246,7 @@ a:hover {
   color: white;
   text-decoration: none;
   margin-bottom: 1rem;
+  font-style: italic;
 }
 
 .c-project__link--hover:hover {
@@ -273,11 +266,11 @@ a:hover {
   flex-direction: column;
   justify-content: flex-start;
   margin: 1rem 0;
+  padding: 0 1rem 1rem;
 }
 
 .c-acordeon--open 
 .c-experience {
-  padding: 0 1rem 1rem;
   display: flex;
   justify-content: center;
 }
@@ -333,6 +326,7 @@ a:hover {
   flex-wrap: wrap;
   margin-top: .5rem;
   padding-left: 2rem;
+  padding-bottom: 1rem;
 }
 
 .c-tools__title {
