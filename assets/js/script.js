@@ -3,7 +3,7 @@
 (function() {
     const information = document.querySelector('.js-default');
     const triggers = document.querySelectorAll('.js-trigger');
-
+    
     triggers.forEach(element => {
         element.addEventListener('click', event => {
             const acordeon = element.parentElement;

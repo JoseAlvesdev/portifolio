@@ -420,6 +420,22 @@ a:hover {
 .c-institution__period {
 }
 
+/* %%%%%%%%%%%%%%%%%%% FOOTER %%%%%%%%%%%%%%%%%%% */
+
+.c-footer {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: right;
+}
+
+.c-foot-link {
+}
+
+.c-foot-link___img {
+  object-fit: contain;
+  max-height: 50px;
+  margin-top: 2rem;
+}
 
 /* %%%%%%%%%%%%%%%%% UTILITIES %%%%%%%%%%%%%%%%% */
 
