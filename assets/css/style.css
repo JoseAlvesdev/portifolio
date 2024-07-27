@@ -247,6 +247,7 @@ a:hover {
   text-decoration: none;
   margin-bottom: 1rem;
   font-style: italic;
+  word-break: break-all;
 }
 
 .c-project__link--hover:hover {
